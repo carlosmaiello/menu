@@ -1,0 +1,9 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/Menu/Menu/bin/Debug/netstandard2.0
+/Menu/Menu/obj
+/Menu/Menu.Android/bin/Debug
+/Menu/Menu.Android/obj
+/Menu/Menu.iOS/obj

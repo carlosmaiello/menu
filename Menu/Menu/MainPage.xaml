@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:v="clr-namespace:Menu.Views"
+             mc:Ignorable="d"
+             x:Class="Menu.MainPage">
+    
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Início" Icon="icon.png">
+            <v:HomePage />
+        </ShellContent>
+        <ShellContent Title="Tela 2" Icon="icon.png">
+            <v:Tela2Page />
+        </ShellContent>
+        <ShellContent Title="Tela 3" Icon="icon.png">
+            <v:Tela3Page />
+        </ShellContent>
+        <ShellContent Title="Tela 4" Icon="icon.png">
+            <v:Tela4Page />
+        </ShellContent>
+    </FlyoutItem>
+
+    <MenuItem Text="Entrar" IconImageSource="icon.png" Clicked="MenuItem_Clicked" />
+
+</Shell>
